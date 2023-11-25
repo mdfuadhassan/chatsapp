@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(147, 143, 143);
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(14, 8, 41);
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin: auto;
+}
+
+.faka_div {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(43, 37, 110);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+
+.second_section {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(43, 37, 110);
+    position: sticky;
+    top: 40px;
+    z-index: 2;
+}
+
+.second_section .app_name {
+    font-size: 15px;
+    background-color: rgb(43, 37, 110);
+    position: absolute;
+    left: 15px;
+}
+
+.second_section ul {
+    display: flex;
+    justify-content: space-around;
+    width: 85px;
+    background-color: rgb(43, 37, 110);
+    position: absolute;
+    right: 15px;
+}
+
+.second_section ul li {
+    list-style: none;
+}
+
+.second_section ul li a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    list-style: none;
+    background-color: rgb(43, 37, 110);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_section ul li img {
+    background-color: rgb(43, 37, 110);
+    width: 15px;
+    height: 15px;
+}
+
+
+.third_section {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(43, 37, 110);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 90px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.third_section ul {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(43, 37, 110)
+}
+
+.third_section ul li {
+    list-style: none;
+}
+
+.third_section a {
+    text-decoration: none;
+}
+
+.third_section ul .li_chats,
+.li_status,
+.li_calls {
+    font-size: 13px;
+    padding: 12px 30px;
+}
+
+.user-people {
+    height: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    margin-left: 15px;
+}
+
+.third_section .user-people img {
+    width: 20px;
+}
+
+.third_section ul li a:hover {
+    color: rgb(94, 113, 161);
+    border-bottom: 3px solid rgb(94, 113, 161);
+    padding: 12px 30px 9px;
+    cursor: pointer;
+}
+
+.third_section .user-people:hover {
+    color: rgb(94, 113, 161);
+    border-bottom: 3px solid rgb(94, 113, 161);
+    padding: 10px 20px 7px 20px;
+    cursor: pointer;
+}
+
+.user-people {
+    border-bottom: 3px solid rgb(94, 113, 161);
+    padding: 10px 20px 7px 20px;
+}
+
+/* Introducing communities */
+.introducing_image {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.intro_image {
+    width: 55%;
+    height: 70%;
+    margin: 0 15px;
+}
+
+.all_text {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.intro_text {
+    font-size: 20px;
+    color: rgb(186, 185, 185);
+    margin: 10px 15px;
+}
+
+.easyToSpace {
+    font-size: 14px;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.startCommunity {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.startCommuAnchor {
+    height: 30px;
+    width: 65%;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: rgb(22, 120, 81);
+    font-size: 13px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
